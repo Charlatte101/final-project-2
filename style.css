@@ -1,0 +1,143 @@
+* { 
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&family=Montserrat:wght@200&display=swap');
+
+body {
+    margin: 0 ;
+
+    /* Sets the width to be 100% of the viewport width */
+    width: 100vw;
+    height: 100vh;
+    background-color: #F7F7F7;
+    color: black;
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+/* Sticky Menu */
+
+header {
+    height: 15%;
+    /* border: 2px solid seagreen; */
+    width: 100%;
+    background: #FFFFFF;
+    margin: 0 auto;
+
+}
+
+.heading {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.name {
+    /* border: magenta solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding-top: 1.2%;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+.menu {
+    /* border: 2px solid orangered; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    
+}
+
+#email {
+    padding-right: 20%;
+    margin-top: 1%;
+    /* color: purple; */
+}
+
+#middleMenu {
+    word-spacing: 10px;
+    margin-top: 1%;
+}
+
+
+main {
+    height: 85%;
+    border: 2px solid purple;
+    overflow: scroll;
+    background-color: #F7F7F7;
+}
+
+/* Second menu */
+
+#heading{
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10vh;
+    padding-bottom: 2vh;
+    font-family: 'Metrophobic', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+    color: #D0A29D;
+
+}
+
+#subHeading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding-top: 10vh; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+/* Carousel */
+
+.carousel-container {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .carousel-images {
+    width: 80%;
+    background: #F7F7F7;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    /* box-shadow: 2px 2px #f2cd99; */
+  }
+
+  .carousel-images img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .carousel-button {
+    align-self: center;
+    background: #f2cd99;
+    color: #888;
+    padding: 10px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 1px 1px #fa8d8e;
+  }
+  .carousel-button:hover {
+    cursor: pointer;
+    background: #fa8d8e;
+    box-shadow: 1px 1px #f2cd99;
+    color: white;
+  }
