@@ -11,13 +11,13 @@ body {
     /* Sets the width to be 100% of the viewport width */
     width: 100vw;
     height: 100vh;
-    background-color: #F7F7F7;
+    /* background-color: #F7F7F7; */
     color: black;
     box-sizing: border-box;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
-/* Sticky Menu */
+/* ===== Sticky Menu ====== */
 
 header {
     height: 15%;
@@ -29,7 +29,7 @@ header {
 }
 
 .heading {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -39,12 +39,15 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
+    font-weight: 100;
     padding-top: 1.2%;
+    font-size: 30px;
+    color: #1C1C1C;
 }
 
 hr {
-    border: 1px solid black;
+    border: 1px thin solid black;
+    
 }
 
 .menu {
@@ -54,7 +57,7 @@ hr {
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
     font-weight: 200;
-    font-size: 12px;
+    font-size: 15px;
     
 }
 
@@ -72,12 +75,12 @@ hr {
 
 main {
     height: 85%;
-    border: 2px solid purple;
+    /* border: 2px solid purple; */
     overflow: scroll;
     background-color: #F7F7F7;
 }
 
-/* Second menu */
+/* ===== Second menu ====== */
 
 #heading{
     text-transform: uppercase;
@@ -104,40 +107,137 @@ main {
     font-size: 15px;
 }
 
-/* Carousel */
+/* ====== Carousel ====== */
 
 .carousel-container {
     width: 70%;
     display: flex;
     justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+    padding-bottom: 10%;
+    /* border: 1px red; */
   }
 
   .carousel-images {
-    width: 80%;
+    width: 40%;
     background: #F7F7F7;
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 10px;
     box-sizing: border-box;
+    /* border: 1px black; */
     /* box-shadow: 2px 2px #f2cd99; */
   }
 
   .carousel-images img {
     width: 100%;
     border-radius: 10px;
+    /* padding-top: 40px; */
+    margin: 30px;
   }
 
   .carousel-button {
     align-self: center;
-    background: #f2cd99;
+    background: #D0A29D;
     color: #888;
     padding: 10px;
     border-radius: 50%;
     text-align: center;
-    box-shadow: 1px 1px #fa8d8e;
+    box-shadow: 1px 1px #A8C2D7;
   }
   .carousel-button:hover {
     cursor: pointer;
-    background: #fa8d8e;
-    box-shadow: 1px 1px #f2cd99;
-    color: white;
+    background: #A8C2D7;
+    box-shadow: 1px 1px #D0A29D;
+    color: black;
+  }
+
+  /* ====Blog Menu ===== */
+
+  .thirdBlock {
+    background-color: #FFFFFF;
+
+  }
+
+  .blogMenu {
+    /* justify-content: center; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    word-spacing: 15px;
+    padding: 50px;
+    margin-left: 11%;
+    /* margin: 0 auto; */
+  }
+
+  .blogPosts {
+    display: flex;
+    justify-content: space-between;
+    max-width: 70%;
+    /* align-items: center; */
+    margin-left: 10%;
+    margin: 0 auto;
+    
+  }
+
+  .box div {
+      height: 250px;
+      width: 250px;
+      /* border: 1px black solid; */
+    
+  }
+
+  .newYear {
+      background-image: url("./images/treehouse.webp");
+      background-size: cover;
+      background-position: center;
+  }
+
+ 
+
+  .travel {
+    background-image: url("./images/england.webp");
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  .pika {
+    background-image: url("./images/IMG-1064.jpg");
+    background-size: cover;
+    background-position: center;
+
+  }
+
+  /* ===== Form ===== */
+
+  form {
+    padding: 100px;
+    background-color: #FFFFFF;
+    /* margin: 0 auto; */
+    width: 100%
+  }
+
+  .subscribe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+      
+  }
+
+  .date {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+  }
+
+  .formStyle {
+      width: 70%;
+      margin: 0 auto;
   }
