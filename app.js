@@ -38,7 +38,7 @@ next.addEventListener('click', () => {
 const form = document.querySelector('form')
 
 form.addEventListener('submit', (e) => {
-    e.preventDefault()
+    // e.preventDefault()
     fetch(scriptURL, { method: 'POST', body: new FormData(form)})
         .then(response => console.log('Success!', response))
         .then(() => {

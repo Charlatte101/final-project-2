@@ -61,9 +61,10 @@ hr {
     
 }
 
-#email {
-    padding-right: 20%;
+#email1 {
+    padding: 20px;
     margin-top: 1%;
+    margin-bottom: 11px;
     /* color: purple; */
 }
 
@@ -240,4 +241,14 @@ main {
   .formStyle {
       width: 70%;
       margin: 0 auto;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  input[type=text] {
+    width: 100%;
+    margin: 8px 0;
+    box-sizing: border-box;
   }
